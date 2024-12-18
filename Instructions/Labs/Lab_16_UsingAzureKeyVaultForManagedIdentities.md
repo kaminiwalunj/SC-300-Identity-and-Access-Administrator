@@ -23,7 +23,7 @@ In this lab, you will complete the following tasks:
 
 Use Azure Key Vault to securely manage and rotate secrets, keys, and certificates for Virtual Machine identities in Azure, enhancing security and access control.
 
-### Task 1 - Create a Windows Virtual Machine
+#### Task 1 - Create a Windows Virtual Machine
 
 In this task, you will create a Windows 11 VM from the Azure Marketplace, configure essential settings like name and credentials, and enable managed identity before deploying the VM.
 
@@ -74,7 +74,7 @@ In this task, you will create a Windows 11 VM from the Azure Marketplace, config
 
      <validation step="1935e96f-183f-447c-9218-a42a2312f43b" />
 
-### Task 2 - Create a Key Vault
+#### Task 2 - Create a Key Vault
 
 In this task, you will create an Azure Key Vault by configuring the required settings, including the name and access policy, then deploy it and retrieve the Key Vault URL for future tasks.
 
@@ -118,7 +118,7 @@ In this task, you will create an Azure Key Vault by configuring the required set
 
      <validation step="242ccb00-a152-49ee-8d59-42c22a8c1860" />
 
-### Task 3 - Create a secret
+#### Task 3 - Create a secret
 
 In this task, you will create a secret in your Key Vault by specifying the name and value, then copy the secret name for use in future tasks.
 
@@ -148,7 +148,7 @@ In this task, you will create a secret in your Key Vault by specifying the name 
 
      <validation step="b3569c98-64c4-4f7e-a19b-463cfc0b4d36" />
 
-### Task 4 - Grant access to Key Vault
+#### Task 4 - Grant access to Key Vault
 
 In this task, you will grant access to your Key Vault by creating an access policy, assigning secret management permissions, and selecting the appropriate VM as the principal.
 
@@ -168,7 +168,7 @@ In this task, you will grant access to your Key Vault by creating an access poli
 
 1. On the **Review + Create** page, select **Create**.
 
-### Task 5 - Access data with Key Vault secret with PowerShell
+#### Task 5 - Access data with Key Vault secret with PowerShell
 
 In this task, you will use PowerShell within your virtual machine to access the secret stored in Azure Key Vault by obtaining an access token and invoking a web request to retrieve the secret.
 
